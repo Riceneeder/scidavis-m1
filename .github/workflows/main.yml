@@ -1,7 +1,8 @@
 name: CI Tests
 
-on: [pull_request,push]
-
+on:
+  workflow_dispatch: # 手动触发
+  
 jobs:
   
   macos:
