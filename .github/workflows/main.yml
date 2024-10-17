@@ -28,6 +28,9 @@ jobs:
         with:
           path: ../Qt
           key: ${{ runner.os }}-QtCache
+          restore-keys: |
+            ${{ runner.os }}-QtCache
+          
 
       - name: Install Qt
         uses: jurplel/install-qt-action@v2
