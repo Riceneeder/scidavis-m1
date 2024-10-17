@@ -28,6 +28,8 @@
  ***************************************************************************/
 #include "ApplicationWindow.h"
 
+#include <QtWidgets>
+
 #include <QAction>
 #include <QApplication>
 #include <QSplashScreen>
