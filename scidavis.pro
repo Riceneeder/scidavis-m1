@@ -5,6 +5,9 @@
 # this file but to the "config.pri" file 
 #################################################
 
+QT += core gui
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
 # enable C++11 support
 equals(QT_MAJOR_VERSION, 5) { CONFIG += c++11 }
 equals(QT_MAJOR_VERSION, 4) { QMAKE_CXXFLAGS += -std=c++11 }
