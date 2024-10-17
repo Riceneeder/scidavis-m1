@@ -22,6 +22,7 @@ jobs:
       run: |
         export PATH="/usr/local/opt/qt/bin:$PATH"
         cp /Users/runner/work/scidavis-m1/scidavis-m1/3rdparty/liborigin.pro /Users/runner/work/scidavis-m1/scidavis-m1/3rdparty/liborigin/liborigin.pro
+        cp /Users/runner/work/scidavis-m1/scidavis-m1/3rdparty/config.h /Users/runner/work/scidavis-m1/scidavis-m1/3rdparty/liborigin/config.h
 
     - name: Configure SciDAVis
       run: |
